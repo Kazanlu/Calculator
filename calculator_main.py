@@ -1,7 +1,6 @@
 class Calculator:
     def __init__(self):
         self.memory = 0 # Current calculator number is zero as non of the actions was done yet.
-    ##### memory = 0 why not in such way?
 
     # Method which will add number to the current memory
     def addition(self, number):
@@ -30,9 +29,3 @@ class Calculator:
     # Method which will reset current memory to initial value (zero)
     def reset_memory(self):
         self.memory = 0
-
-#calc = Calculator()
-#calc.root(2)
-
-#current_memory = calc.get_memory()
-#print(current_memory)

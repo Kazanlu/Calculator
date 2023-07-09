@@ -1,3 +1,5 @@
+# Calculator project
+
 This is package for simple python calculations:
   addition
   subtraction
